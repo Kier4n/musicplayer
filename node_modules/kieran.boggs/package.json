@@ -1,0 +1,86 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "https://github.com/Kier4n/cordova-alert-plugin.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/Kier4n/cordova-alert-plugin.git",
+        "spec": "git+https://github.com/Kier4n/cordova-alert-plugin.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:Kier4n/cordova-alert-plugin.git",
+          "sshUrl": "git+ssh://git@github.com/Kier4n/cordova-alert-plugin.git",
+          "httpsUrl": "git+https://github.com/Kier4n/cordova-alert-plugin.git",
+          "gitUrl": "git://github.com/Kier4n/cordova-alert-plugin.git",
+          "shortcut": "github:Kier4n/cordova-alert-plugin",
+          "directUrl": "https://raw.githubusercontent.com/Kier4n/cordova-alert-plugin/master/package.json"
+        }
+      },
+      "/Volumes/DONNEES/kieran.boggs/musicplayer"
+    ]
+  ],
+  "_from": "git+https://github.com/Kier4n/cordova-alert-plugin.git",
+  "_id": "kieran.boggs@0.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/kieran.boggs",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "https://github.com/Kier4n/cordova-alert-plugin.git",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "https://github.com/Kier4n/cordova-alert-plugin.git",
+    "spec": "git+https://github.com/Kier4n/cordova-alert-plugin.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:Kier4n/cordova-alert-plugin.git",
+      "sshUrl": "git+ssh://git@github.com/Kier4n/cordova-alert-plugin.git",
+      "httpsUrl": "git+https://github.com/Kier4n/cordova-alert-plugin.git",
+      "gitUrl": "git://github.com/Kier4n/cordova-alert-plugin.git",
+      "shortcut": "github:Kier4n/cordova-alert-plugin",
+      "directUrl": "https://raw.githubusercontent.com/Kier4n/cordova-alert-plugin/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/Kier4n/cordova-alert-plugin.git#242e4bc7b012a8a0bda05fa92c247310b8e63762",
+  "_shasum": "9cfc749968a104ef4645117e4c673c0c4750c7e9",
+  "_shrinkwrap": null,
+  "_spec": "https://github.com/Kier4n/cordova-alert-plugin.git",
+  "_where": "/Volumes/DONNEES/kieran.boggs/musicplayer",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Kier4n/cordova-alert-plugin/issues"
+  },
+  "cordova": {
+    "id": "com.example.cordova.alert",
+    "platforms": []
+  },
+  "dependencies": {},
+  "description": "A plugin to show native alert",
+  "devDependencies": {},
+  "gitHead": "242e4bc7b012a8a0bda05fa92c247310b8e63762",
+  "homepage": "https://github.com/Kier4n/cordova-alert-plugin#readme",
+  "keywords": [
+    "cordova",
+    "plugin",
+    "alert",
+    "ecosystem:cordova"
+  ],
+  "license": "Apache 2.0",
+  "name": "kieran.boggs",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kier4n/cordova-alert-plugin.git"
+  },
+  "version": "0.0.1"
+}

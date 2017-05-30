@@ -1,0 +1,18 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.example.cordova.alert": {
+        "source": {
+            "type": "registry",
+            "id": "https://github.com/Kier4n/cordova-alert-plugin.git"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

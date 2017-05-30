@@ -1,0 +1,10 @@
+{
+    "com.example.cordova.alert": {
+        "source": {
+            "type": "local",
+            "path": "../cordova-alert-plugin"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}
