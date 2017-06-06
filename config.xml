@@ -23,6 +23,8 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <engine name="android" spec="^6.2.3" />
-    <plugin name="cordova-plugin-whitelist" spec="^1.3.2" />
     <plugin name="com.example.cordova.alert" spec="https://github.com/Kier4n/cordova-alert-plugin.git" />
+    <plugin name="cordova-plugin-media" spec="^3.0.1" />
+    <plugin name="cordova-plugin-music-controls" spec="git+https://github.com/homerours/cordova-music-controls-plugin.git" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.2" />
 </widget>
