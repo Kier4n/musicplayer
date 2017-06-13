@@ -7,10 +7,19 @@
     <description>A plugin to show native alert</description>
     <license>Apache 2.0</license>
     <keywords>cordova,plugin,alert</keywords>
-    <repo>https://github.com/yourgithubname/cordova-alert-plugin.git</repo>
-    <issue>https://github.com/yourgithubname/cordova-alert-plugin/issues</issue>
+    <repo>https://github.com/Kier4n/cordova-alert-plugin.git</repo>
+    <issue>https://github.com/Kier4n/cordova-alert-plugin/issues</issue>
 
-    <js-module src="www/plugin.js" name="Alert">
-        <clobbers target="cordova.plugins.Alert" />
+    <js-module src="www/plugin.js" name="Player">
+        <clobbers target="cordova.plugins.Player" />
     </js-module>
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="PlayerPlugin" >
+                <param name="android-package" value="com.example.cordova.alert.PlayerPlugin"/>
+            </feature>
+        </config-file>
+ 
+        <source-file src="src/android/PlayerPlugin.java" target-dir="src/com/example/cordova/alert"/>
+    </platform>
 </plugin>

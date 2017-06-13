@@ -10,7 +10,6 @@
     "author": "Apache Cordova Team",
     "license": "Apache-2.0",
     "dependencies": {
-        "com.example.cordova.alert": "https://github.com/Kier4n/cordova-alert-plugin.git",
         "cordova-alert-plugin": "git+https://github.com/Kier4n/cordova-alert-plugin.git",
         "cordova-android": "^6.2.3",
         "cordova-plugin-compat": "^1.1.0",
@@ -18,14 +17,15 @@
         "cordova-plugin-media": "^3.0.1",
         "cordova-plugin-music-controls": "git+https://github.com/homerours/cordova-music-controls-plugin.git",
         "cordova-plugin-whitelist": "^1.3.2",
-        "kieran.boggs": "git+https://github.com/Kier4n/cordova-alert-plugin.git"
+        "kieran.boggs": "git+https://github.com/Kier4n/cordova-alert-plugin.git",
+        "com.example.cordova.alert": "https://github.com/Kier4n/cordova-alert-plugin.git"
     },
     "cordova": {
         "plugins": {
             "cordova-plugin-whitelist": {},
-            "com.example.cordova.alert": {},
             "cordova-plugin-media": {},
-            "cordova-plugin-music-controls": {}
+            "cordova-plugin-music-controls": {},
+            "com.example.cordova.alert": {}
         },
         "platforms": [
             "android"

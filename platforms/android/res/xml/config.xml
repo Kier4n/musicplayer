@@ -15,6 +15,9 @@
     <feature name="MusicControls">
         <param name="android-package" value="com.homerours.musiccontrols.MusicControls" />
     </feature>
+    <feature name="PlayerPlugin">
+        <param name="android-package" value="com.example.cordova.alert.PlayerPlugin" />
+    </feature>
     <name>HelloCordova</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.

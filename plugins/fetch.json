@@ -7,14 +7,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "com.example.cordova.alert": {
-        "source": {
-            "type": "registry",
-            "id": "https://github.com/Kier4n/cordova-alert-plugin.git"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-media": {
         "source": {
             "type": "registry",
@@ -43,6 +35,14 @@
         "source": {
             "type": "registry",
             "id": "https://github.com/homerours/cordova-music-controls-plugin"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.example.cordova.alert": {
+        "source": {
+            "type": "registry",
+            "id": "https://github.com/Kier4n/cordova-alert-plugin.git"
         },
         "is_top_level": true,
         "variables": {}

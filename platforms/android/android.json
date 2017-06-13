@@ -27,6 +27,10 @@
                         {
                             "xml": "<feature name=\"MusicControls\"><param name=\"android-package\" value=\"com.homerours.musiccontrols.MusicControls\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"PlayerPlugin\"><param name=\"android-package\" value=\"com.example.cordova.alert.PlayerPlugin\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -69,9 +73,6 @@
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         },
-        "com.example.cordova.alert": {
-            "PACKAGE_NAME": "io.cordova.hellocordova"
-        },
         "cordova-plugin-compat": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
         },
@@ -83,18 +84,13 @@
         },
         "cordova-plugin-music-controls": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
+        "com.example.cordova.alert": {
+            "PACKAGE_NAME": "io.cordova.hellocordova"
         }
     },
     "dependent_plugins": {},
     "modules": [
-        {
-            "id": "com.example.cordova.alert.Alert",
-            "file": "plugins/com.example.cordova.alert/www/plugin.js",
-            "pluginId": "com.example.cordova.alert",
-            "clobbers": [
-                "cordova.plugins.Alert"
-            ]
-        },
         {
             "id": "cordova-plugin-file.DirectoryEntry",
             "file": "plugins/cordova-plugin-file/www/DirectoryEntry.js",
@@ -291,14 +287,22 @@
             "clobbers": [
                 "MusicControls"
             ]
+        },
+        {
+            "id": "com.example.cordova.alert.Player",
+            "file": "plugins/com.example.cordova.alert/www/plugin.js",
+            "pluginId": "com.example.cordova.alert",
+            "clobbers": [
+                "cordova.plugins.Player"
+            ]
         }
     ],
     "plugin_metadata": {
         "cordova-plugin-whitelist": "1.3.2",
-        "com.example.cordova.alert": "0.0.1",
         "cordova-plugin-compat": "1.1.0",
         "cordova-plugin-file": "4.3.3",
         "cordova-plugin-media": "3.0.1",
-        "cordova-plugin-music-controls": "1.4.1"
+        "cordova-plugin-music-controls": "1.4.1",
+        "com.example.cordova.alert": "0.0.1"
     }
 }

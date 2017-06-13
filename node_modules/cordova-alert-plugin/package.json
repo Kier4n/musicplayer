@@ -50,28 +50,34 @@
     "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/Kier4n/cordova-alert-plugin.git#90b9133de94261e976c7e1a3858c803650eeac1a",
-  "_shasum": "04d75d3e08ae9b86282100c2b483506adb563241",
+  "_resolved": "git+https://github.com/Kier4n/cordova-alert-plugin.git#dfd39a0ddd58f027b6a1d97e58b2e3153ed57174",
+  "_shasum": "213e91b0fafe8c2c81114627c4abbd0491e8de61",
   "_shrinkwrap": null,
   "_spec": "https://github.com/Kier4n/cordova-alert-plugin.git",
   "_where": "/Volumes/DONNEES/kieran.boggs/musicplayer",
-  "author": "",
+  "author": {
+    "name": "Kier4n"
+  },
   "bugs": {
     "url": "https://github.com/Kier4n/cordova-alert-plugin/issues"
   },
   "cordova": {
-    "id": "com.example.cordova.alert",
+    "id": "cordova-alert-plugin",
     "platforms": [
-      "android",
+      "andoid",
       "ios"
     ]
   },
   "dependencies": {},
   "description": "A plugin to show native alert",
   "devDependencies": {},
-  "gitHead": "90b9133de94261e976c7e1a3858c803650eeac1a",
+  "gitHead": "dfd39a0ddd58f027b6a1d97e58b2e3153ed57174",
   "homepage": "https://github.com/Kier4n/cordova-alert-plugin#readme",
   "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows",
     "cordova",
     "plugin",
     "alert",
