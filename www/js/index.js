@@ -1,8 +1,15 @@
     var app = {
-        testplugin: function(){
-            cordova.plugins.Player.alert('hello');
+        play: function() {
+            cordova.plugins.Player.play();
         },
-        player: function() {
-            var song = new Media('')
+        pause: function() {
+            cordova.plugins.Player.pause();
+        }
+        next: function() {
+            cordova.plugins.Player.next();
+
+        }
+        previous: function() {
+            cordova.plugins.Player.previous();
         }
     };

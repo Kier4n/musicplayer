@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.example.cordova.alert"
     version="0.0.1">
-    <name>Alert Plugin</name>
+    <name>Play Plugin</name>
     <description>A plugin to show native alert</description>
     <license>Apache 2.0</license>
     <keywords>cordova,plugin,alert</keywords>
@@ -20,6 +20,6 @@
             </feature>
         </config-file>
  
-        <source-file src="src/android/PlayerPlugin.java" target-dir="src/com/example/cordova/alert"/>
+        <source-file src="src/android/PlayerPlugin.java" target-dir="src/com/example/cordova/play"/>
     </platform>
 </plugin>

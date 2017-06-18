@@ -1,17 +1,15 @@
-
     var app = {
-        // Application Constructor
-        testplugin: function(){
-            console.log('hi');
-            cordova.plugins.Player.alert('hello');
+        play: function() {
+            cordova.plugins.Player.play();
         },
+        pause: function() {
+            cordova.plugins.Player.pause();
+        }
+        next: function() {
+            cordova.plugins.Player.next();
 
-        
-        // deviceready Event Handler
-        //
-        // Bind any cordova events here. Common events are:
-        // 'pause', 'resume', etc.
-        player: function() {
-            var song = new Media('')
+        }
+        previous: function() {
+            cordova.plugins.Player.previous();
         }
     };
