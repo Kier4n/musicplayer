@@ -19,13 +19,12 @@
           "directUrl": "https://raw.githubusercontent.com/Kier4n/cordova-alert-plugin/master/package.json"
         }
       },
-      "/Volumes/DONNEES/kieran.boggs/musicplayer"
+      "C:\\Users\\Kieran\\Documents\\GitHub\\musicplayer\\node_modules"
     ]
   ],
   "_from": "git+https://github.com/Kier4n/cordova-alert-plugin.git",
   "_id": "cordova-alert-plugin@0.0.1",
   "_inCache": true,
-  "_installable": true,
   "_location": "/cordova-alert-plugin",
   "_phantomChildren": {},
   "_requested": {
@@ -50,11 +49,11 @@
     "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/Kier4n/cordova-alert-plugin.git#dfd39a0ddd58f027b6a1d97e58b2e3153ed57174",
-  "_shasum": "213e91b0fafe8c2c81114627c4abbd0491e8de61",
+  "_resolved": "git+https://github.com/Kier4n/cordova-alert-plugin.git#00e85911c4440e4cdd2897d3a5732327d30f7181",
+  "_shasum": "16817edccdefb92845c5d22f39a77b43d93028e9",
   "_shrinkwrap": null,
   "_spec": "https://github.com/Kier4n/cordova-alert-plugin.git",
-  "_where": "/Volumes/DONNEES/kieran.boggs/musicplayer",
+  "_where": "C:\\Users\\Kieran\\Documents\\GitHub\\musicplayer\\node_modules",
   "author": {
     "name": "Kier4n"
   },
@@ -71,7 +70,7 @@
   "dependencies": {},
   "description": "A plugin to show native alert",
   "devDependencies": {},
-  "gitHead": "dfd39a0ddd58f027b6a1d97e58b2e3153ed57174",
+  "gitHead": "00e85911c4440e4cdd2897d3a5732327d30f7181",
   "homepage": "https://github.com/Kier4n/cordova-alert-plugin#readme",
   "keywords": [
     "ecosystem:cordova",

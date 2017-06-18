@@ -1,15 +1,15 @@
     var app = {
         play: function() {
-            cordova.plugins.Player.play();
+            cordova.plugins.Alert.play();
         },
         pause: function() {
-            cordova.plugins.Player.pause();
-        }
+            cordova.plugins.Alert.pause();
+        },
         next: function() {
-            cordova.plugins.Player.next();
+            cordova.plugins.Alert.next();
 
-        }
+        },
         previous: function() {
-            cordova.plugins.Player.previous();
+            cordova.plugins.Alert.previous();
         }
     };

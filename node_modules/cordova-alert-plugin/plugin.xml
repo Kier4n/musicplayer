@@ -10,8 +10,8 @@
     <repo>https://github.com/Kier4n/cordova-alert-plugin.git</repo>
     <issue>https://github.com/Kier4n/cordova-alert-plugin/issues</issue>
 
-    <js-module src="www/plugin.js" name="Player">
-        <clobbers target="cordova.plugins.Player" />
+    <js-module src="www/plugin.js" name="alert">
+        <clobbers target="cordova.plugins.alert" />
     </js-module>
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
